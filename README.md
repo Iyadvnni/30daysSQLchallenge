@@ -12,9 +12,14 @@ The compilation of my learning materials are as follows:
 - [Installation Setup Guide](https://www.youtube.com/watch?v=tV20RClXehQ&t=769s) 
 
 ## Datasets
-
+- [Adventure Works dataset](https://github.com/Iyadvnni/30daysSQLchallenge/blob/main/AdventureWorks_dataset.zip)
   
 ## Learning log
-1. Introduction to SQL, relational databases and the history of SQL.
-2. Installation of applications.
-3. Exploration of the Data Definition Language (DDL) command; CREATE statement. 
+| Day | Concept | Linkedin | 
+| -------- | ------- | -------- | 
+| 1 |  Introduction to SQL, relational databases and the history of SQL. | Linkedin | 
+| 2 | Installation of applications & Exploration of the Data Definition Language (DDL) command; CREATE statement. | Linkedin | 
+| 3 | Concept | Linkedin | 
+| 4 | Concept | Linkedin | 
+| 5 | Concept | Linkedin | 
+
