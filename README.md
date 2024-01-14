@@ -18,8 +18,10 @@ The compilation of my learning materials are as follows:
 | Day | Concept | Linkedin | 
 | -------- | ------- | -------- | 
 | 1 |  Introduction to SQL, relational databases and the history of SQL. | Linkedin | 
-| 2 | Installation of applications & Exploration of the Data Definition Language (DDL) command; CREATE statement. | Linkedin | 
-| 3 | Concept | Linkedin | 
-| 4 | Concept | Linkedin | 
-| 5 | Concept | Linkedin | 
+| 2 | Installation of SQL server & SSMS | Linkedin | 
+| 3 | Exploration create database and table statement | Linkedin | 
+| 4 | Introduction to where clause & Delect statement | Linkedin | 
+| 5 | Insert into, AND & OR Operator | Linkedin | 
+| 6 | Not Operator, Drop & Truncate Statement  | Linkedin | 
+| 7 | With Clause | Linkedin | 
 
