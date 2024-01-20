@@ -9,7 +9,8 @@ The compilation of my learning materials are as follows:
 - [SQL Roadmap by GeeksforGeeks](https://www.geeksforgeeks.org/30-days-of-sql-from-basic-to-advanced-level/)
 - [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-- [Installation Setup Guide](https://www.youtube.com/watch?v=tV20RClXehQ&t=769s) 
+- [Installation Setup Guide](https://www.youtube.com/watch?v=tV20RClXehQ&t=769s)
+- [My 30 days SQL Challenge study notes](https://docs.google.com/document/d/1ijoHcuIt71NoTnMS-3Ty4ii9BqnXleNz4SqNZq2LJyk/edit)
 
 ## Datasets
 - [Adventure Works dataset](https://github.com/Iyadvnni/30daysSQLchallenge/blob/main/AdventureWorks_dataset.zip)
@@ -21,7 +22,10 @@ The compilation of my learning materials are as follows:
 | 2 | Installation of SQL server & SSMS | Linkedin | 
 | 3 | Exploration create database and table statement | Linkedin | 
 | 4 | Introduction to where clause & Delect statement | Linkedin | 
-| 5 | Insert into, AND & OR Operator | Linkedin | 
-| 6 | Not Operator, Drop & Truncate Statement  | Linkedin | 
+| 5 | Insert into & insert using select statements | Linkedin | 
+| 6 | ANd & Or Operator in SQL,  Drop & Truncate Statement, NOt Operator  | Linkedin | 
+| 7 | WITH, LIMIT, OFFSET AND FETCH | Linkedin | 
+| 7 | WITH, LIMIT, OFFSET AND FETCHe | Linkedin | 
 | 7 | With Clause | Linkedin | 
-
+| 7 | With Clause | Linkedin | 
+| 7 | With Clause | Linkedin | 
