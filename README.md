@@ -27,4 +27,5 @@ The compilation of my learning materials are as follows:
 | 7 | WITH, LIMIT, OFFSET AND FETCH | Linkedin | 
 | 8 | Arithmetic Operators (+, -, / & %) | Linkedin | 
 | 9 | Wild Card Operators(%, _, - & [char] & Update statement | Linkedin | 
+| 10 | Alter Table (Add, Drop, Alter column) | Linkedin | 
 
