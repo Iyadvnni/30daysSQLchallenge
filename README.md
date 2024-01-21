@@ -25,7 +25,7 @@ The compilation of my learning materials are as follows:
 | 5 | Insert into & insert using select statements | Linkedin | 
 | 6 | ANd & Or Operator in SQL,  Drop & Truncate Statement, NOt Operator  | Linkedin | 
 | 7 | WITH, LIMIT, OFFSET AND FETCH | Linkedin | 
-| 7 | WITH, LIMIT, OFFSET AND FETCHe | Linkedin | 
-| 7 | With Clause | Linkedin | 
-| 7 | With Clause | Linkedin | 
-| 7 | With Clause | Linkedin | 
+| 8 | Arithmetic Operators (+, -, / & %) | Linkedin | 
+| 9 |  | Linkedin | 
+| 10 |  | Linkedin | 
+| 11 |  | Linkedin | 
