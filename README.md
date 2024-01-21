@@ -28,4 +28,5 @@ The compilation of my learning materials are as follows:
 | 8 | Arithmetic Operators (+, -, / & %) | Linkedin | 
 | 9 | Wild Card Operators(%, _, - & [char] & Update statement | Linkedin | 
 | 10 | Alter Table (Add, Drop, Alter column) | Linkedin | 
+| 11| Like Operator, Between and IN Operator  | Linkedin | 
 
