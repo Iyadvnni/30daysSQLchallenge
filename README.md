@@ -26,6 +26,5 @@ The compilation of my learning materials are as follows:
 | 6 | ANd & Or Operator in SQL,  Drop & Truncate Statement, NOt Operator  | Linkedin | 
 | 7 | WITH, LIMIT, OFFSET AND FETCH | Linkedin | 
 | 8 | Arithmetic Operators (+, -, / & %) | Linkedin | 
-| 9 |  | Linkedin | 
-| 10 |  | Linkedin | 
-| 11 |  | Linkedin | 
+| 9 | Wild Card Operators(%, _, - & [char] & Update statement | Linkedin | 
+
