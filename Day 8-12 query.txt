@@ -1,0 +1,267 @@
+---Day 7 
+--with Clause: allows to name a SQL statements which is part of the final query e.g refereerign to it in your query
+--a query where the avg Annual income is greater than employees income
+
+select * from  [Adventureworks].[dbo].[AdventureWorks_Customers];
+
+with temporarytable (averageAnnualIncome) AS
+(select avg(AnnualIncome) 
+from [Adventureworks].[dbo].[AdventureWorks_Customers])
+select [FirstName], [LastName],[Gender],[AnnualIncome],[EducationLevel] 
+from [Adventureworks].[dbo].[AdventureWorks_Customers], temporarytable
+where [AnnualIncome]> averageAnnualIncome;
+
+
+--OFFSET: removes a number of row from result set 
+--print all employess name and exclude the one with highest salary 
+select FirstName, LastName 
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+order by AnnualIncome DESC 
+OFFSET 1 ROWS
+
+---FETCH; used with Offset clause, to determine the next sets of sets  after offseting rows 
+---a query to return highest annualincome in desc and limit to 3 results 
+select * from [Adventureworks].[dbo].[AdventureWorks_Customers]
+order by AnnualIncome DESC 
+OFFSET 0 ROWS
+fetch NEXT 3 ROWS only;
+
+--a query to return bottom 3 rows of employees based on annualincome
+select * from [Adventureworks].[dbo].[AdventureWorks_Customers]
+order by AnnualIncome ASC
+OFFSET 0 ROWS
+fetch NEXT 3 ROWS only;
+
+--Day 8 - Arithmetric operators 
+--Addition
+
+--- a query that adds 5000 to AnnualIncome of all 
+select FirstName,LastName, AnnualIncome, 
+AnnualIncome +5000 AS new_income 
+from [Adventureworks].[dbo].[AdventureWorks_Customers];
+
+--Subtraction (-) : perform subtraction operation on the data items, items include either single column or multiple columns.
+--- a query that minus 5000 to AnnualIncome. 
+select FirstName,LastName, AnnualIncome, 
+AnnualIncome -5000 AS new_income 
+from [Adventureworks].[dbo].[AdventureWorks_Customers];
+
+--Division : ?need to review
+
+--Multiplication : used to perform multiplication on data 
+--query to multiply annualincome by 5000 and round up results 
+select FirstName,LastName, AnnualIncome, 
+round (AnnualIncome * 5000,1,0) AS new_income 
+from [Adventureworks].[dbo].[AdventureWorks_Customers];
+
+--Modulus ( % ) :to get remainder when one data is divided by another.
+--query to get the remainder value when annual income is divided by 4000
+select FirstName,LastName, AnnualIncome, 
+AnnualIncome % 4000 AS new_income 
+from [Adventureworks].[dbo].[AdventureWorks_Customers];
+--it use usually used to check if a number is even or odd
+
+--NULL: missing values 
+--Query to check for nulls in columns 
+select *
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where [CustomerKey] = NULL OR [FirstName]= NULL OR [Prefix] = NULL OR[LastName] = NULL OR [BirthDate] = NULL ;
+
+--counting null
+select count(*)
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where [CustomerKey] = 
+NULL OR [FirstName]= NULL 
+--no null in the data 
+
+--Day 9 WIld Card Operator: used with Like operator to search for data 
+--there are 4 of them used %, _,-,[range_of_chracters]. 
+--1. % wildcard:to substitue 0 or characters 
+--query to fetch customer firstname starting with Y 
+
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname like 'y%';
+
+--query to fetch customer lastname ends with t  
+
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where lastname like '%t';
+
+--query to fetch customer firstname contains X
+
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname like '%x%';
+
+--query to fetch customer firstname starting with XY 
+
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname like '%xy%';
+
+---2. _wildcard: to sustitue one or more characters 
+--query to fetch customer firstname starting with nav but ending with anything 
+
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname like 'sa__';
+
+--query to fetch customers  names that are 5 letter words
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname like '_____'
+
+--3. -wildcard: to substitute a range of characters 
+--query to fetch customers  names that are 5 letter words
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname like 'A-----'
+
+
+--4. [range_of_characters]: used to fetch matching set/range of characters specified inside the brackets 
+--query to fetch customers  names that contains a,b,c,d letters
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname REGEXP '[O-S]';
+--not supportted in sql server 
+
+--QUERY TO RETURN FIRST NAMES NOT CONTAINING S OR O
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname NOT LIKE  '%[O-S%]';
+
+--COMBINING TWO WILDCARD
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where AnnualIncome LIKE'17__0%';
+
+--Update statement : used to update existing records in the table either single column or multiple column 
+SELECT [SalesTerritoryKey]
+      ,[Country]
+      ,[Continent]
+  FROM [Adventureworks].[dbo].[Subtable]
+
+  --query to update the column  and country to nigeria
+  update [Adventureworks].[dbo].[Subtable]
+  set Country= 'Nigeria' 
+  where SalesTerritoryKey = 9;
+
+  --query to update the column continuent to African and country to nigeri 
+  update [Adventureworks].[dbo].[Subtable]
+  set Continent= 'Africa' 
+  where SalesTerritoryKey = 9;
+
+  --updating multiple columns
+   --query to update the column continuent to African and country to nigeri 
+  update [Adventureworks].[dbo].[Subtable]
+  set Country= 'Ghana' , Continent='Africa'
+  where SalesTerritoryKey = 6;
+  
+  --omitting where clause chnages all the data in the table 
+  update [Adventureworks].[dbo].[Subtable]
+  set Continent= 'Africa';
+
+SELECT [SalesTerritoryKey]
+      ,[Country]
+      ,[Continent]
+  FROM [Adventureworks].[dbo].[Subtable]  
+
+--  Day 10 :Alter table,used to add, drop and modify data in tables
+Alter table 
+add is used to add columns in a table
+--query to add new column email address
+
+Alter Table  [Adventureworks].[dbo].[Subtable]
+ADD state varchar(25);
+
+--query to add multiple columns
+Alter Table  [Adventureworks].[dbo].[Subtable]
+ADD language varchar(25), President varchar(30);
+
+--query to remove a column 
+Alter Table [Adventureworks].[dbo].[Subtable]
+Drop column state;
+
+--Modify a table: use to change column data type 
+--query to chnage data type of salesterritoty int to varchar 
+
+Alter Table [Adventureworks].[dbo].[Subtable]
+ALter column [SalesTerritoryKey] varchar(3)
+
+---query to chnage data type of salesterritoty int to varchar 
+Alter Table [Adventureworks].[dbo].[Subtable]
+ALter column [SalesTerritoryKey] int
+
+--Day 10 : Like clause, used with where clause to retrieve data with specific pattern 
+--used in 2 ways 
+--1. %: Used to match zero or more characters. (Variable Length)
+--2. _: Used to match exactly one character. (Fixed Length)
+
+-- query to fetch data with pattern of ca in customer first name 
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname like '%ca%';
+
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname like '%___x%';
+
+--Like operator is useful when sourcing for patterns in addresses or filtering 
+--to make sensitive, ue BINARY KEYWORD in query
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where firstname like  '%XIA%';
+
+--between & In Operator 
+--Between allows you to specify two conditions or range of values
+--used with select, inset,update & delete statement 
+
+--query to return records of customers with annual income between 
+14000- 170000
+
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where AnnualIncome between 140000 AND 160000;
+
+--Not + Between
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where AnnualIncome Not between 140000 AND 160000;
+
+--In Operator: allows to fetch a list of values instead of listing them onafter 
+--the other in a where statement 
+--query to return the Annualincome of customers with 120000, 130000, 150000
+
+select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where AnnualIncome IN (120000 , 13,0000, 150000);
+ 
+ --In + Not operator 
+ select FirstName,LastName, AnnualIncome
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+where AnnualIncome Not IN (120000 , 13,0000, 150000);
+
+--Day 12:case statements : goes through conditions and returns a value when the first condition is met
+--(like an if-then-else statement)
+--query to return categorize results into Homeowner, no property  or Freshner
+select FirstName,LastName, AnnualIncome, HomeOwner,
+case 
+when Homeowner > 0 then 'Homeowner'
+when homeowner = 0 then 'Fresher'
+else 'no poperty'
+End AS 'Property'
+from [Adventureworks].[dbo].[AdventureWorks_Customers];
+
+--case + order by : used to order result sets columns
+
+select FirstName,LastName, AnnualIncome, HomeOwner
+from [Adventureworks].[dbo].[AdventureWorks_Customers]
+order by (
+case 
+when Homeowner = 0 then 'Homeowner'
+else 'no poperty'
+End )
+
+ 
