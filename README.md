@@ -33,6 +33,6 @@ The compilation of my learning materials are as follows:
 | 13|Distinct Clause| Linkedin | 
 | 14|Aggregate functions| Linkedin | 
 | 15|Scalar functions| Linkedin | 
-| 15|Order by Statement| Linkedin | 
+| 16|Order by Statement| Linkedin | 
 
 
