@@ -30,3 +30,9 @@ The compilation of my learning materials are as follows:
 | 10 | Alter Table (Add, Drop, Alter column) | Linkedin | 
 | 11| Like Operator, Between and IN Operator  | Linkedin | 
 | 12|Case & Exists Operator | Linkedin | 
+| 13|Distinct Clause| Linkedin | 
+| 14|Aggregate functions| Linkedin | 
+| 15|Scalar functions| Linkedin | 
+| 15|Order by Statement| Linkedin | 
+
+
