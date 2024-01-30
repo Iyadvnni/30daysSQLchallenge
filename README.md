@@ -20,8 +20,8 @@ The compilation of my learning materials are as follows:
 | -------- | ------- | -------- | 
 | 1 |  Introduction to SQL, relational databases and the history of SQL. | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_github-iyadvnni30dayssqlchallenge-this-activity-7157872016870502400-46_p?utm_source=share&utm_medium=member_desktop) | 
 | 2 | Installation of SQL server & SSMS | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_day-30daysofsql-activity-7157878495094751232-vy3g?utm_source=share&utm_medium=member_desktop) | 
-| 3 | Exploration create database and table statement | Linkedin | 
-| 4 | Introduction to where clause & Delect statement | Linkedin | 
+| 3 | Exploration create database and table statement | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7157881674616221696-oGqy?utm_source=share&utm_medium=member_desktop) | 
+| 4 | Introduction to where clause & Delect statement | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7157887497438429184-5q5e?utm_source=share&utm_medium=member_desktop) | 
 | 5 | Insert into & insert using select statements | Linkedin | 
 | 6 | ANd & Or Operator in SQL,  Drop & Truncate Statement, NOt Operator  | Linkedin | 
 | 7 | WITH, LIMIT, OFFSET AND FETCH | Linkedin | 
