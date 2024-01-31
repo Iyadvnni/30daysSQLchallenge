@@ -34,6 +34,6 @@ The compilation of my learning materials are as follows:
 | 14|Aggregate functions| Linkedin | 
 | 15|Scalar functions| Linkedin | 
 | 16|Order by Statement| Linkedin | 
-| 15|Group by statement| Linkedin | 
-| 16|Logical Operators(All & Any | Linkedin | 
+| 17|Group by statement| Linkedin | 
+| 18|Logical Operators(All & Any | Linkedin | 
 
