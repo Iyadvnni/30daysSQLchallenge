@@ -25,7 +25,7 @@ The compilation of my learning materials are as follows:
 | 5 | Insert into & insert using select statements | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7158601358269386752-KAVK?utm_source=share&utm_medium=member_desktop) | 
 | 6 | ANd & Or Operator in SQL,  Drop & Truncate Statement, NOt Operator  | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7158623800178204672-ysl1?utm_source=share&utm_medium=member_desktop) | 
 | 7 | WITH, LIMIT, OFFSET AND FETCH | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7158934239718055936-4oFZ?utm_source=share&utm_medium=member_desktop) | 
-| 8 | Arithmetic Operators (+, -, / & %) | Linkedin | 
+| 8 | Arithmetic Operators (+, -, / & %) |[ Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7160629237861826560-6NXO?utm_source=share&utm_medium=member_desktop) | 
 | 9 | Wild Card Operators(%, _, - & [char] & Update statement | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7158973249349918721-bIE2?utm_source=share&utm_medium=member_desktop) | 
 | 10 | Alter Table (Add, Drop, Alter column) | Linkedin | 
 | 11| Like Operator, Between and IN Operator  | Linkedin | 
