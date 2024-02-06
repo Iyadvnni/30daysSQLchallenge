@@ -22,7 +22,7 @@ The compilation of my learning materials are as follows:
 | 2 | Installation of SQL server & SSMS | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_day-30daysofsql-activity-7157878495094751232-vy3g?utm_source=share&utm_medium=member_desktop) | 
 | 3 | Exploration create database and table statement | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7157881674616221696-oGqy?utm_source=share&utm_medium=member_desktop) | 
 | 4 | Introduction to where clause & Delect statement | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7157887497438429184-5q5e?utm_source=share&utm_medium=member_desktop) | 
-| 5 | Insert into & insert using select statements | Linkedin | 
+| 5 | Insert into & insert using select statements | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7158601358269386752-KAVK?utm_source=share&utm_medium=member_desktop) | 
 | 6 | ANd & Or Operator in SQL,  Drop & Truncate Statement, NOt Operator  | Linkedin | 
 | 7 | WITH, LIMIT, OFFSET AND FETCH | Linkedin | 
 | 8 | Arithmetic Operators (+, -, / & %) | Linkedin | 
