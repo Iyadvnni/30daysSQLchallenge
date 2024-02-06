@@ -35,5 +35,5 @@ The compilation of my learning materials are as follows:
 | 15|Scalar functions| Linkedin | 
 | 16|Order by Statement| Linkedin | 
 | 17|Group by statement| Linkedin | 
-| 18|Logical Operators(All & Any | Linkedin | 
+| 18|Logical Operators(All & Any) & Top Clause | Linkedin | 
 
