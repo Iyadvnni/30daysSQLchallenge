@@ -36,4 +36,5 @@ The compilation of my learning materials are as follows:
 | 16|Order by Statement| Linkedin | 
 | 17|Group by statement| Linkedin | 
 | 18|Logical Operators(All & Any) & Top Clause | Linkedin | 
+| 19|Union, Union ALL, Intercept, Excerpt & Alias Clause | Linkedin | 
 
