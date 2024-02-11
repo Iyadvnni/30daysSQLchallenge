@@ -28,7 +28,7 @@ The compilation of my learning materials are as follows:
 | 8 | Arithmetic Operators (+, -, / & %) |[ Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7160629237861826560-6NXO?utm_source=share&utm_medium=member_desktop) | 
 | 9 | Wild Card Operators(%, _, - & [char] & Update statement | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7158973249349918721-bIE2?utm_source=share&utm_medium=member_desktop) | 
 | 10 | Alter Table (Add, Drop, Alter column) | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7160649545922560001-hJ9J?utm_source=share&utm_medium=member_desktop) | 
-| 11| Like Operator, Between and IN Operator  | Linkedin | 
+| 11| Like Operator, Between and IN Operator  | [Linkedin](https://www.linkedin.com/posts/adedoyin-akinsemoyin_30daysofsql-activity-7161856221807923200-OnsT?utm_source=share&utm_medium=member_desktop) | 
 | 12|Case & Exists Operator | Linkedin | 
 | 13|Distinct Clause| Linkedin | 
 | 14|Aggregate functions| Linkedin | 
